@@ -239,3 +239,13 @@ body .social .contact-icons {
 body .navbar {
   border-bottom: 3px solid var(--global-theme-color);
 }
+
+// -----------------------------------------------------------------------------
+// Site addition (not from the theme): full name on the Home page, both words
+// bold and green. The theme makes only the first name bold.
+// ":has" limits this to the Home heading, the only title with a bold first name.
+// -----------------------------------------------------------------------------
+body .post-title:has(> .font-weight-bold) {
+  font-weight: 700;
+  color: var(--global-theme-color);
+}
