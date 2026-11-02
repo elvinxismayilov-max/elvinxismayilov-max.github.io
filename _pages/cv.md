@@ -20,7 +20,13 @@ nav_order: 3
   </a>
 </p>
 
-Norman, Oklahoma | [elvin.ismayilov-1@ou.edu](mailto:elvin.ismayilov-1@ou.edu) | [elvinxismayilov-max.github.io](https://elvinxismayilov-max.github.io) | [linkedin.com/in/elvin-s-ismayilov](https://www.linkedin.com/in/elvin-s-ismayilov)
+<!-- Contact details, one per line so they fit on a phone screen. -->
+<p style="line-height: 1.8;">
+  Norman, Oklahoma<br>
+  <a href="mailto:elvin.ismayilov-1@ou.edu">elvin.ismayilov-1@ou.edu</a><br>
+  <a href="https://elvinxismayilov-max.github.io">elvinxismayilov-max.github.io</a><br>
+  <a href="https://www.linkedin.com/in/elvin-s-ismayilov">linkedin.com/in/elvin-s-ismayilov</a>
+</p>
 
 ## Research interests
 
@@ -86,9 +92,9 @@ Multiphase gas-solid flow, fluidized bed reactors, chemical looping, clean hydro
 - Checked the quality of subsurface data and reports, including daily geology reports, cuttings descriptions and post-well documentation.
 - Field assignments: Gunashli offshore HP/HT oil wells, West Absheron offshore high-angle wells, and Tuzgol underground gas storage wells in Ankara, Turkey.
 
-**Geology Intern**, SOCAR AQS, Baku | June to July 2019
-<br>**Summer Training Program**, Schlumberger, Baku | July 2019 (one week)
-<br>**Petroleum Engineering Intern**, SOCAR, Baku | June to July 2018
+**Geology Intern**, SOCAR AQS, Baku, June to July 2019
+<br>**Summer Training Program**, Schlumberger, Baku, July 2019 (one week)
+<br>**Petroleum Engineering Intern**, SOCAR, Baku, June to July 2018
 
 ## Projects
 

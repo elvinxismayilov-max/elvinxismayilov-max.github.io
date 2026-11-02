@@ -265,3 +265,13 @@ body .navbar.navbar-light .navbar-brand .font-weight-bold {
   color: var(--global-theme-color);
   font-weight: 700; // surname bold too, not just the first name
 }
+
+// -----------------------------------------------------------------------------
+// Site addition (not from the theme): phone safety net. Long links or words
+// wrap onto the next line instead of making the page scroll sideways.
+// -----------------------------------------------------------------------------
+body article,
+body .post-header {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
