@@ -34,7 +34,7 @@ I set up data acquisition with pressure and flow sensors in LabVIEW, and wrote t
     </div>
 </div>
 <div class="caption">
-    Me with the rig, wearing ear protection for the compressor.
+    Me with the rig.
 </div>
 
 ### Some of the materials
