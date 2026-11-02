@@ -16,3 +16,10 @@ After my B.Eng. in petroleum engineering at Baku Higher Oil School, I spent four
 In 2024 I came to the University of Oklahoma for an MS with Dr. Baharak Sajjadi. I built a cold flow dual fluidized bed rig from scratch, set up its pressure and flow sensors, and wrote the Python code that turns raw signals into results. I used the rig to characterize solid circulation and check earlier simulation results. Gary Stowe helped me build the reactor, and Jeff McCaskill helped me get the circulation materials. I am now a PhD student at OU, and I have been a teaching assistant for Statics and Dynamics, Rock Properties Lab and Reservoir Engineering II.
 
 The part of engineering I enjoy most is mechanical design: working out how parts should move, then using math and physics to make that motion better. Building the rig brought me back to it, and it is where I want my work to go.
+
+<!-- QR code that opens the site. Image: assets/img/site-qr.png.
+     If the site address changes (for example a custom domain), regenerate the image. -->
+<div style="text-align: center; margin-top: 2.5rem;">
+  <img src="{{ '/assets/img/site-qr.png' | relative_url }}" alt="QR code for elvinxismayilov-max.github.io" style="width: 200px; max-width: 60%; border-radius: 8px;">
+  <p style="margin-top: 0.5rem;">Scan to open this site.</p>
+</div>
