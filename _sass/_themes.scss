@@ -260,7 +260,7 @@ body .post-title:has(> .font-weight-bold) > .font-weight-bold {
 // Site addition (not from the theme): the name at the top left of every page
 // except Home (it links back to Home) is green too.
 // -----------------------------------------------------------------------------
-body .navbar .navbar-brand,
-body .navbar .navbar-brand .font-weight-bold {
+body .navbar.navbar-light .navbar-brand,
+body .navbar.navbar-light .navbar-brand .font-weight-bold {
   color: var(--global-theme-color);
 }
