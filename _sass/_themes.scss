@@ -263,4 +263,5 @@ body .post-title:has(> .font-weight-bold) > .font-weight-bold {
 body .navbar.navbar-light .navbar-brand,
 body .navbar.navbar-light .navbar-brand .font-weight-bold {
   color: var(--global-theme-color);
+  font-weight: 700; // surname bold too, not just the first name
 }
