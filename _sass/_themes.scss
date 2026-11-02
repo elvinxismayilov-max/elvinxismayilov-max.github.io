@@ -231,3 +231,11 @@ body .social .contact-icons {
     }
   }
 }
+
+// -----------------------------------------------------------------------------
+// Site addition (not from the theme): thicker green line under the top menu.
+// The theme default is a 1px grey divider.
+// -----------------------------------------------------------------------------
+body .navbar {
+  border-bottom: 3px solid var(--global-theme-color);
+}
