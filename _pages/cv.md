@@ -117,3 +117,10 @@ Multiphase gas-solid flow, fluidized bed reactors, chemical looping, clean hydro
 
 - Society of Petroleum Engineers (SPE), Society of Exploration Geophysicists (SEG)
 - Azerbaijani (native), English (fluent), Turkish (fluent), Russian (intermediate)
+
+<!-- QR code that opens this CV page. Image: assets/img/cv-qr.png.
+     If the site address changes (for example a custom domain), regenerate the image. -->
+<div style="text-align: center; margin-top: 2.5rem;">
+  <img src="{{ '/assets/img/cv-qr.png' | relative_url }}" alt="QR code for the CV page" style="width: 200px; max-width: 60%; border-radius: 8px;">
+  <p style="margin-top: 0.5rem;">Scan to open this CV.</p>
+</div>
