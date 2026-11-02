@@ -249,3 +249,18 @@ body .post-title:has(> .font-weight-bold) {
   font-weight: 700;
   color: var(--global-theme-color);
 }
+
+// First name sits in its own <span>, which the theme colors separately,
+// so give it the green explicitly as well.
+body .post-title:has(> .font-weight-bold) > .font-weight-bold {
+  color: var(--global-theme-color);
+}
+
+// -----------------------------------------------------------------------------
+// Site addition (not from the theme): the name at the top left of every page
+// except Home (it links back to Home) is green too.
+// -----------------------------------------------------------------------------
+body .navbar .navbar-brand,
+body .navbar .navbar-brand .font-weight-bold {
+  color: var(--global-theme-color);
+}
