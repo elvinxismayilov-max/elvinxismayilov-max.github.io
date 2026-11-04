@@ -275,3 +275,149 @@ body .post-header {
   overflow-wrap: break-word;
   word-break: break-word;
 }
+
+// -----------------------------------------------------------------------------
+// Redesign additions (not from the theme)
+// -----------------------------------------------------------------------------
+
+// Menu: hide the "Home" item. The orange name at the top left already links Home.
+body .navbar .navbar-menu-list > .nav-item:first-child {
+  display: none;
+}
+
+// Home: the big one-line pitch under the name.
+body .hook {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 1.25rem 0 1rem;
+  color: var(--global-text-color);
+}
+
+// Home: featured project card. Image on top on phones, side by side on wider screens.
+body a.featured-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 1.75rem;
+  padding: 1rem;
+  border: 2px solid var(--global-theme-color);
+  border-radius: 10px;
+  color: var(--global-text-color);
+  text-decoration: none;
+
+  img {
+    width: 220px;
+    max-width: 100%;
+    border-radius: 6px;
+  }
+  .featured-text {
+    flex: 1;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  .featured-label {
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--global-theme-color);
+  }
+  strong {
+    font-size: 1.15rem;
+  }
+  .featured-more {
+    font-weight: 600;
+    color: var(--global-theme-color);
+  }
+  &:hover {
+    text-decoration: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  }
+}
+
+// About: timeline. Dots on a vertical line, oldest first.
+body ol.timeline {
+  list-style: none;
+  margin: 1.5rem 0 0;
+  padding: 0 0 0 1.75rem;
+  border-left: 3px solid var(--global-theme-color);
+
+  li {
+    position: relative;
+    margin: 0 0 1.75rem;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: calc(-1.75rem - 9px);
+      top: 0.2rem;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: var(--global-theme-color);
+      border: 3px solid var(--global-bg-color);
+    }
+    &.timeline-next::before {
+      background: var(--global-bg-color);
+      border: 3px solid var(--global-theme-color);
+    }
+  }
+  .when {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--global-theme-color);
+  }
+  .what {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0.1rem 0 0.3rem;
+  }
+  p {
+    margin: 0;
+  }
+}
+
+// CV: rows with the date on the right; the date drops under the line on narrow phones.
+body ul.cv-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+
+  li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0 1rem;
+    padding: 0.4rem 0;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+  .cv-date {
+    color: var(--global-text-color-light);
+    white-space: nowrap;
+  }
+}
+body .cv-more {
+  margin-top: 1.5rem;
+  font-style: normal;
+}
+
+// Phones: the featured card image fills the card width.
+@media (max-width: 575.98px) {
+  body a.featured-card img {
+    width: 100%;
+  }
+}
+
+// The body font is light, so "bold" from the browser is barely heavier. Make it clearly bold.
+body article strong,
+body article b {
+  font-weight: 700;
+}
