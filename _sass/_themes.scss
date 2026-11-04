@@ -280,9 +280,10 @@ body .post-header {
 // Redesign additions (not from the theme)
 // -----------------------------------------------------------------------------
 
-// Menu: hide the "Home" item. The orange name at the top left already links Home.
-body .navbar .navbar-menu-list > .nav-item:first-child {
-  display: none;
+// Name at the top left: shown, but not a link. The "Home" menu item is the way back.
+body .navbar a.navbar-brand {
+  pointer-events: none;
+  cursor: default;
 }
 
 // Home: the big one-line pitch under the name.

@@ -27,7 +27,7 @@ latest_posts:
 
 <p class="hook">I design and build things that move.</p>
 
-I am a PhD student in petroleum engineering at the University of Oklahoma, with four years of offshore field experience behind me. For my MS, I built a dual fluidized bed rig from scratch and used it to study how solids circulate between two reactors.
+For my MS, I built a dual fluidized bed rig from scratch and used it to study how solids circulate between two reactors. I am now a PhD student in petroleum engineering at the University of Oklahoma, with four years of offshore field experience behind me.
 
 <a class="featured-card" href="{{ '/projects/dfb-rig/' | relative_url }}">
   <img src="{{ '/assets/img/dfb-rig/rig-front.jpg' | relative_url }}" alt="Dual fluidized bed rig">

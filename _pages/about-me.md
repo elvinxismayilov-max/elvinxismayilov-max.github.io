@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 nav: true
-nav_order: 1
+nav_order: 2
 ---
 
 <!-- About page: the story as a timeline, newest first.

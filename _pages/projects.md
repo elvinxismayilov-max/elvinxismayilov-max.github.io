@@ -4,9 +4,18 @@ title: Projects
 permalink: /projects/
 description: Things I have designed and built.
 nav: true
-nav_order: 2
+nav_order: 1
 horizontal: false
 ---
+
+<!-- While there is only one project, this page sends visitors straight to it.
+     Add a second file in _projects/ and this page becomes a list again automatically. -->
+{% if site.projects.size == 1 %}
+{% assign only_project = site.projects | first %}
+<meta http-equiv="refresh" content="0; url={{ only_project.url | relative_url }}">
+<script>window.location.replace("{{ only_project.url | relative_url }}");</script>
+<p><a href="{{ only_project.url | relative_url }}">{{ only_project.title }}</a></p>
+{% endif %}
 
 <!-- pages/projects.md -->
 <div class="projects">
