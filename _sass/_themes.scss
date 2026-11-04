@@ -303,7 +303,7 @@ body a.featured-card {
   align-items: center;
   margin-top: 1.75rem;
   padding: 1rem;
-  border: 2px solid var(--global-theme-color);
+  border: 1px solid var(--global-theme-color);
   border-radius: 10px;
   color: var(--global-text-color);
   text-decoration: none;
@@ -421,4 +421,32 @@ body .cv-more {
 body article strong,
 body article b {
   font-weight: 700;
+}
+
+// Teaching: one block per course, newest first.
+body .course {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+
+  .course-when {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--global-theme-color);
+  }
+  .course-name {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-top: 0.1rem;
+  }
+  .course-who {
+    display: block;
+    color: var(--global-text-color-light);
+  }
+  p {
+    margin: 0.4rem 0 0;
+  }
 }
