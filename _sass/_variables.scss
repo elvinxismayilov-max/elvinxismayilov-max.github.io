@@ -11,14 +11,14 @@ $red-color-dark: #b71c1c !default;
 $orange-color: #f29105 !default;
 $blue-color: #0076df !default;
 $blue-color-dark: #00369f !default;
-$cyan-color: #4caf7a !default; // site accent (dark mode): lighter green for contrast, replaces theme cyan
+$cyan-color: #f76707 !default; // site accent (dark mode): brighter orange for contrast, replaces theme cyan. Previous: #4caf7a green
 $light-cyan-color: color.adjust($cyan-color, $lightness: 25%);
 $green-color: #00ab37 !default;
 $green-color-lime: #b7d12a !default;
 $green-color-dark: #009f06 !default;
 $green-color-light: #ddffdd !default;
 $green-color-bright: #11d68b !default;
-$purple-color: #1f6f43 !default; // site accent (light mode): dark green, replaces theme purple
+$purple-color: #c2410c !default; // site accent (light mode): burnt orange, replaces theme purple. Previous: #1f6f43 dark green
 $light-purple-color: color.adjust($purple-color, $lightness: 25%);
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
