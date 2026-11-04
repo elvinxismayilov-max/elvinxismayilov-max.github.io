@@ -6,15 +6,16 @@ nav: true
 nav_order: 3
 ---
 
-<!-- CV page. The PDF lives in assets/pdf/Elvin_Ismayilov_CV.pdf.
+<!-- CV page. When the PDF is replaced, bump ?v=N on both buttons so phones fetch the new file.
+      The PDF lives in assets/pdf/Elvin_Ismayilov_CV.pdf.
      To update the CV: replace that PDF, then edit the text below to match. -->
 
 <p style="display: flex; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 2rem;">
-  <a href="{{ '/assets/pdf/Elvin_Ismayilov_CV.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer"
+  <a href="{{ '/assets/pdf/Elvin_Ismayilov_CV.pdf' | relative_url }}?v=2" target="_blank" rel="noopener noreferrer"
      style="padding: 0.5rem 1.25rem; border: 2px solid var(--global-theme-color); border-radius: 6px; color: var(--global-theme-color); font-weight: 600; text-decoration: none;">
     <i class="fa-solid fa-eye"></i>&nbsp; View PDF
   </a>
-  <a href="{{ '/assets/pdf/Elvin_Ismayilov_CV.pdf' | relative_url }}" download="Elvin_Ismayilov_CV.pdf"
+  <a href="{{ '/assets/pdf/Elvin_Ismayilov_CV.pdf' | relative_url }}?v=2" download="Elvin_Ismayilov_CV.pdf"
      style="padding: 0.5rem 1.25rem; border: 2px solid var(--global-theme-color); border-radius: 6px; background: var(--global-theme-color); color: #fff; font-weight: 600; text-decoration: none;">
     <i class="fa-solid fa-download"></i>&nbsp; Download PDF
   </a>
