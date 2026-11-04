@@ -20,6 +20,6 @@ The part of engineering I enjoy most is mechanical design: working out how parts
 <!-- QR code that opens the site. Image: assets/img/site-qr.png.
      If the site address changes (for example a custom domain), regenerate the image. -->
 <div style="text-align: center; margin-top: 2.5rem;">
-  <img src="{{ '/assets/img/site-qr.png' | relative_url }}" alt="QR code for elvinxismayilov-max.github.io" style="width: 200px; max-width: 60%; border-radius: 8px;">
+  <img src="{{ '/assets/img/site-qr.png' | relative_url }}" alt="QR code for elvinismayilov.com" style="width: 200px; max-width: 60%; border-radius: 8px;">
   <p style="margin-top: 0.5rem;">Scan to open this site.</p>
 </div>

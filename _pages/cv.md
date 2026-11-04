@@ -24,7 +24,7 @@ nav_order: 3
 <p style="line-height: 1.8;">
   Norman, Oklahoma<br>
   <a href="mailto:elvin.ismayilov-1@ou.edu">elvin.ismayilov-1@ou.edu</a><br>
-  <a href="https://elvinxismayilov-max.github.io">elvinxismayilov-max.github.io</a><br>
+  <a href="https://elvinismayilov.com">elvinismayilov.com</a><br>
   <a href="https://www.linkedin.com/in/elvin-s-ismayilov">linkedin.com/in/elvin-s-ismayilov</a>
 </p>
 
