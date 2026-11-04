@@ -29,6 +29,13 @@ nav_order: 4
   <span class="course-who">With Dr. Baharak Sajjadi</span>
 </div>
 
+<div class="course">
+  <span class="course-when">2023</span>
+  <span class="course-name">Math Olympiad coaching</span>
+  <span class="course-who">Part-time, through an education startup in Azerbaijan</span>
+  <p>Prepared 12 students in grades 7, 9 and 11, in groups of four, for a math Olympiad over a few months. One student won a gold medal and two won silver.</p>
+</div>
+
 ## What I do as a TA
 
 - Teach students
