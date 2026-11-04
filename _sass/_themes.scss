@@ -408,3 +408,16 @@ body .cv-more {
   margin-top: 1.5rem;
   font-style: normal;
 }
+
+// Phones: the featured card image fills the card width.
+@media (max-width: 575.98px) {
+  body a.featured-card img {
+    width: 100%;
+  }
+}
+
+// The body font is light, so "bold" from the browser is barely heavier. Make it clearly bold.
+body article strong,
+body article b {
+  font-weight: 700;
+}
