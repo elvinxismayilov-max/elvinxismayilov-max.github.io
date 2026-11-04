@@ -104,13 +104,14 @@ jobs:
           npm install -g purgecss
           purgecss -c purgecss.config.js
       - name: Keep preview build 📦
-        # Pull requests build the site without deploying it. Keep the result for 3 days so it can be previewed.
+        # Pull requests build the site without deploying it. Save the result on a 'preview' branch
+        # so it can be checked before merging. The live site (gh-pages) is not touched.
         if: github.event_name == 'pull_request'
-        uses: actions/upload-artifact@v4
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          name: site-preview
-          path: _site
-          retention-days: 3
+          folder: _site
+          branch: preview
+          single-commit: true
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
