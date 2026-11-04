@@ -22,18 +22,19 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Engineer and researcher. I design and build things that move.
+<!-- Home page: the 10-second pitch. Story lives on About (_pages/about-me.md),
+     CV details on the CV page. Styles: .hook and .featured-card in _sass/_themes.scss -->
 
-I am a PhD student in petroleum engineering at the University of Oklahoma. For my MS, I built a cold flow dual fluidized bed rig from scratch and used it to characterize solid circulation and check earlier simulation results.
+<p class="hook">I design and build things that move.</p>
 
-Before graduate school, I spent four years as a wellsite geologist at SOCAR AQS, working on offshore and high pressure, high temperature wells.
+I am a PhD student in petroleum engineering at the University of Oklahoma, with four years of offshore field experience behind me. For my MS, I built a dual fluidized bed rig from scratch and used it to study how solids circulate between two reactors.
 
-<!-- Featured project card. Links to the case study in _projects/dfb-rig.md -->
-<a href="{{ '/projects/dfb-rig/' | relative_url }}" style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin-top: 2rem; padding: 1rem; border: 1px solid var(--global-divider-color); border-radius: 8px; color: var(--global-text-color); text-decoration: none;">
-  <img src="{{ '/assets/img/dfb-rig/rig-front.jpg' | relative_url }}" alt="Dual fluidized bed rig" style="width: 160px; max-width: 100%; border-radius: 6px;">
-  <span style="flex: 1; min-width: 200px;">
-    <strong style="color: var(--global-theme-color);">Dual fluidized bed rig</strong><br>
+<a class="featured-card" href="{{ '/projects/dfb-rig/' | relative_url }}">
+  <img src="{{ '/assets/img/dfb-rig/rig-front.jpg' | relative_url }}" alt="Dual fluidized bed rig">
+  <span class="featured-text">
+    <span class="featured-label">Featured project</span>
+    <strong>Dual fluidized bed rig</strong>
     A cold flow rig I built from scratch to study how solids circulate between two reactors.
+    <span class="featured-more">See the project &rarr;</span>
   </span>
 </a>
-
