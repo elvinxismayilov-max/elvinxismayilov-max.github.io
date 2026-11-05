@@ -11,11 +11,11 @@ nav_order: 3
      To update the CV: replace that PDF, then update the short summary below to match. -->
 
 <p style="display: flex; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 2rem;">
-  <a href="{{ '/assets/pdf/Elvin_Ismayilov_CV.pdf' | relative_url }}?v=3" target="_blank" rel="noopener noreferrer"
+  <a href="{{ '/assets/pdf/Elvin_Ismayilov_CV.pdf' | relative_url }}?v=4" target="_blank" rel="noopener noreferrer"
      style="padding: 0.5rem 1.25rem; border: 2px solid var(--global-theme-color); border-radius: 6px; color: var(--global-theme-color); font-weight: 600; text-decoration: none;">
     <i class="fa-solid fa-eye"></i>&nbsp; View PDF
   </a>
-  <a href="{{ '/assets/pdf/Elvin_Ismayilov_CV.pdf' | relative_url }}?v=3" download="Elvin_Ismayilov_CV.pdf"
+  <a href="{{ '/assets/pdf/Elvin_Ismayilov_CV.pdf' | relative_url }}?v=4" download="Elvin_Ismayilov_CV.pdf"
      style="padding: 0.5rem 1.25rem; border: 2px solid var(--global-theme-color); border-radius: 6px; background: var(--global-theme-color); color: #fff; font-weight: 600; text-decoration: none;">
     <i class="fa-solid fa-download"></i>&nbsp; Download PDF
   </a>
@@ -67,7 +67,7 @@ Mechanical design, experimental apparatus design, multiphase gas-solid flow, flu
 
 Azerbaijani (native), English (fluent), Turkish (fluent), Russian (intermediate)
 
-<p class="cv-more">Full details, teaching, certifications and projects are in the <a href="{{ '/assets/pdf/Elvin_Ismayilov_CV.pdf' | relative_url }}?v=3" target="_blank" rel="noopener noreferrer">PDF</a>.</p>
+<p class="cv-more">Full details, teaching, certifications and projects are in the <a href="{{ '/assets/pdf/Elvin_Ismayilov_CV.pdf' | relative_url }}?v=4" target="_blank" rel="noopener noreferrer">PDF</a>.</p>
 
 <!-- QR code that opens this CV page. Image: assets/img/cv-qr.png.
      If the site address changes (for example a custom domain), regenerate the image. -->

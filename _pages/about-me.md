@@ -39,7 +39,7 @@ nav_order: 2
   <li>
     <span class="when">Childhood</span>
     <span class="what">Building at home</span>
-    <p>An arrow launcher with a release made from an umbrella button and a hook. Pulley systems that could lift my own weight. A fruit picker made from a pole, a basket and scissors pulled by a string. My favorite was a small hydraulic crane powered by medical syringes.</p>
+    <p>An arrow launcher with a release made from an umbrella button and a hook. Pulley systems that could lift my own weight. A fruit picker made from a pole, a basket and pruning shears pulled by a string. My favorite was a small hydraulic crane powered by medical syringes.</p>
   </li>
 </ol>
 
