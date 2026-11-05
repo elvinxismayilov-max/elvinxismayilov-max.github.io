@@ -12,9 +12,9 @@ nav_order: 2
 
 <ol class="timeline">
   <li class="timeline-next">
-    <span class="when">Direction</span>
-    <span class="what">Mechanical design</span>
-    <p>The part of engineering I enjoy most is working out how parts should move, then using math and physics to make that motion better. Building the rig brought me back to it.</p>
+    <span class="when">How I work</span>
+    <span class="what">Simple solutions to hard problems</span>
+    <p>What I enjoy most is taking a hard engineering problem, thinking it through and imagining a solution, then building and testing it. In my MS research, I took one idea from a first sketch to a working apparatus: a new, non-intrusive method for measuring solid circulation rate, developed from scratch.</p>
   </li>
   <li>
     <span class="when">2026 to now</span>
