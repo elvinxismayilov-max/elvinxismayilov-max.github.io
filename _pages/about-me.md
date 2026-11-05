@@ -29,7 +29,7 @@ nav_order: 2
   <li>
     <span class="when">2020 to 2024</span>
     <span class="what">Wellsite geologist, SOCAR AQS</span>
-    <p>Supervised mud logging, LWD and wireline operations as the company geologist on offshore and high pressure, high temperature wells at Gunashli and West Absheron, and on the Tuzgol gas storage wells in Turkey.</p>
+    <p>Company wellsite geologist on offshore high pressure, high temperature and high-angle wells. Performed real-time geological evaluation from drill cuttings, mud logging and LWD data, picked formation tops, and communicated changes in formation properties to the drilling and mud service companies to inform mud weight and mud parameter decisions. Supervised contractor mud logging, LWD and wireline operations and quality-checked subsurface data and reports. Gunashli and West Absheron fields offshore Azerbaijan, and the Tuzgol gas storage wells in Turkey.</p>
   </li>
   <li>
     <span class="when">2015 to 2020</span>
