@@ -13,8 +13,8 @@ nav_order: 2
 <ol class="timeline">
   <li class="timeline-next">
     <span class="when">How I work</span>
-    <span class="what">Simple solutions to hard problems</span>
-    <p>What I enjoy most is taking a hard engineering problem, thinking it through and imagining a solution, then building and testing it. In my MS research, I took one idea from a first sketch to a working apparatus: a new, non-intrusive method for measuring solid circulation rate, developed from scratch.</p>
+    <span class="what">Mechanical design and new solutions</span>
+    <p>I am drawn to mechanical design: working out how parts should move, then using math and physics to make that motion better. What I enjoy most is taking a hard engineering problem, thinking it through and imagining a solution, then building and testing it. In my MS research, I took one idea from a first sketch to a working apparatus: a new, non-intrusive method for measuring solid circulation rate, developed from scratch.</p>
   </li>
   <li>
     <span class="when">2026 to now</span>
@@ -39,7 +39,7 @@ nav_order: 2
   <li>
     <span class="when">Childhood</span>
     <span class="what">Building at home</span>
-    <p>An arrow launcher with a release made from an umbrella button and a hook. Pulley systems that could lift my own weight. A fruit picker made from a pole, a basket and scissors pulled by a string. My favorite was a small hydraulic crane powered by medical syringes.</p>
+    <p>An arrow launcher with a release made from an umbrella button and a hook. Pulley systems that could lift my own weight. A fruit picker made from a pole, a basket and pruning shears pulled by a string. My favorite was a small hydraulic crane powered by medical syringes.</p>
   </li>
 </ol>
 
