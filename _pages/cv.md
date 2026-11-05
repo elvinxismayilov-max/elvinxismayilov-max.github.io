@@ -33,7 +33,7 @@ nav_order: 3
 
 ## Research interests
 
-Multiphase gas-solid flow, fluidized bed reactors, chemical looping, clean hydrogen production, experimental measurement and data acquisition, plasma catalysis.
+Mechanical design, experimental apparatus design, multiphase gas-solid flow, fluidized bed reactors, chemical looping, clean hydrogen production, experimental measurement and data acquisition, plasma catalysis.
 
 ## Education
 

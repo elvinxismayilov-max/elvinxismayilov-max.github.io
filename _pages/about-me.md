@@ -13,8 +13,8 @@ nav_order: 2
 <ol class="timeline">
   <li class="timeline-next">
     <span class="when">How I work</span>
-    <span class="what">Simple solutions to hard problems</span>
-    <p>What I enjoy most is taking a hard engineering problem, thinking it through and imagining a solution, then building and testing it. In my MS research, I took one idea from a first sketch to a working apparatus: a new, non-intrusive method for measuring solid circulation rate, developed from scratch.</p>
+    <span class="what">Mechanical design and new solutions</span>
+    <p>I am drawn to mechanical design: working out how parts should move, then using math and physics to make that motion better. What I enjoy most is taking a hard engineering problem, thinking it through and imagining a solution, then building and testing it. In my MS research, I took one idea from a first sketch to a working apparatus: a new, non-intrusive method for measuring solid circulation rate, developed from scratch.</p>
   </li>
   <li>
     <span class="when">2026 to now</span>
