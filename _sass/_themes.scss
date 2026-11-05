@@ -302,6 +302,7 @@ body a.featured-card {
   gap: 1rem;
   align-items: center;
   margin-top: 1.75rem;
+  max-width: 640px;
   padding: 1rem;
   border: 1px solid var(--global-theme-color);
   border-radius: 10px;
@@ -449,4 +450,38 @@ body .course {
   p {
     margin: 0.4rem 0 0;
   }
+}
+
+// -----------------------------------------------------------------------------
+// One heading style for the whole site: bold, not the theme's large thin type.
+// -----------------------------------------------------------------------------
+body .post-header .post-title {
+  font-size: 2.1rem;
+  font-weight: 700;
+}
+body .post-header .post-title:has(> .font-weight-bold) {
+  font-size: 2.6rem; // the name on Home stays the largest text on the site
+}
+body .post-header .post-description {
+  font-size: 1rem;
+  color: var(--global-text-color-light);
+}
+body article h2 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+body article h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
+}
+
+// Project pages: photos never taller than most of the screen, so text shows on the first screen.
+body .post article .row img.img-fluid {
+  max-height: 65vh;
+  width: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
 }
