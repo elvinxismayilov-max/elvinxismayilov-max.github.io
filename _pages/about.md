@@ -25,9 +25,9 @@ latest_posts:
 <!-- Home page: the 10-second pitch. Story lives on About (_pages/about-me.md),
      CV details on the CV page. Styles: .hook and .featured-card in _sass/_themes.scss -->
 
-<p class="hook">I design and build things that move.</p>
+<p class="hook">I like problems that don't have a solution yet.</p>
 
-For my MS, I built a dual fluidized bed rig from scratch and used it to study how solids circulate between two reactors. I am now a PhD student in petroleum engineering at the University of Oklahoma, with four years of offshore field experience behind me.
+For my MS, I built a dual fluidized bed rig from scratch, then developed a new, non-intrusive method for measuring how fast solids circulate between its two reactors. I am now a PhD student in petroleum engineering at the University of Oklahoma, with four years of offshore field experience behind me.
 
 <a class="featured-card" href="{{ '/projects/dfb-rig/' | relative_url }}">
   <img src="{{ '/assets/img/dfb-rig/rig-front.jpg' | relative_url }}" alt="Dual fluidized bed rig">
