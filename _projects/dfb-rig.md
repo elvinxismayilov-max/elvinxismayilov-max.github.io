@@ -75,3 +75,21 @@ A few of the instruments on the rig. The full setup includes more equipment that
 ## Method and results
 
 The measurement method is covered by an invention disclosure under review at the University of Oklahoma. The method, equations and results will be added here once it is filed. A paper on this work is in preparation with Dr. Baharak Sajjadi.
+
+## MS thesis defense
+
+I defended this work for my MS in petroleum engineering at the University of Oklahoma in November 2026.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/dfb-rig/defense-group.jpg" title="After the MS defense" class="img-fluid rounded z-depth-1" caption="After my MS thesis defense, November 2026." %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/dfb-rig/defense-talk-1.jpg" title="Presenting the riser flow structure" class="img-fluid rounded z-depth-1" caption="Presenting how particles move inside the riser." %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/dfb-rig/defense-talk-2.jpg" title="Presenting fluidization regimes" class="img-fluid rounded z-depth-1" caption="Presenting the fluidization regimes in the beds and the riser." %}
+    </div>
+</div>
