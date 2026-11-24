@@ -92,4 +92,7 @@ I defended this work for my MS in petroleum engineering at the University of Okl
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/dfb-rig/defense-talk-2.jpg" title="Presenting fluidization regimes" class="img-fluid rounded z-depth-1" caption="Presenting the fluidization regimes in the beds and the riser." %}
     </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/dfb-rig/defense-talk-3.jpg" title="Presenting the test conditions" class="img-fluid rounded z-depth-1" caption="Presenting the test conditions." %}
+    </div>
 </div>
